@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hours {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.hero {
+  /* This uses the sports-bg.jpg file from your new images folder */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background_sport') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem; /* Slightly reduced padding */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  text-align: center; /* Center product text and image */
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+/* New style for the product images */
+.product-img {
+  width: 100%; 
+  height: 200px;
+  object-fit: cover; /* Ensures images look clean and cover the area */
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.social ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.social a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
